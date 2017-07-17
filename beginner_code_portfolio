@@ -1,0 +1,31 @@
+<body style="background-color:aliceblue">
+  <font face="times">
+  <h1>
+    <font size="200%">
+    My Portfolio
+    </font>
+  </h1>
+
+  <h2 style="color:slateblue">Sarah Baum</h2>
+  <div class="center">
+    <h2>This text is centered.</h2>
+  </div>
+  <img src="website_pic1.JPG" alt="" style="width:300px;height:400px;">
+  <h2>
+    <style>
+    .center {
+      line-height: 500px;
+      height: 500px;
+      text-align: center;
+    }
+    </style>
+  </h2>
+
+</body></h3>
+  <p title="blum blum blum">
+  I like pasta!
+  </p>
+  <a href="https://sarahbaum.github.io/portfolio/aboutme.html"></a>
+</font>
+
+</body>
