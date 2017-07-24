@@ -1,93 +1,123 @@
 <!DOCTYPE html>
-<html lang="en-US"; style="background-color:aliceblue">
-  <head>
-    <script>
-    window.alert
-    ("Welcome!")
-    function displayWelcome() {
-        document.getElementById("demo").innerHTML = Welcome();
-    }
-    function bigImg1(x) {
-      x.style.height = "231px";
-      x.style.width = "242px";
-    }
+<html>
+<body style="background-color:skyblue;">
+<head>
 
-    function normalImg1(x) {
-      x.style.height = "210px";
-      x.style.width = "220px";
-    }
-    function bigImg2(x) {
-      x.style.height = "275px";
-      x.style.width = "330px";
-    }
+<link rel="stylesheet" href="CSS2.css">
+<script>
+window.alert
+("Welcome!")
+function displayWelcome() {
+    document.getElementById("demo").innerHTML = Welcome();
+}
+function bigImg1(x) {
+  x.style.height = "231px";
+  x.style.width = "242px";
+}
 
-    function normalImg2(x) {
-      x.style.height = "250px";
-      x.style.width = "300px";
-    }
-    function bigImg3(x) {
-      x.style.height = "180.4px";
-      x.style.width = "390.5px";
-    }
+function normalImg1(x) {
+  x.style.height = "210px";
+  x.style.width = "220px";
+}
+function bigImg2(x) {
+  x.style.height = "275px";
+  x.style.width = "330px";
+}
 
-    function normalImg3(x) {
-      x.style.height = "164px";
-      x.style.width = "355px";
-    }
-    </script>
-    <link rel="stylesheet" href="CSS.css">
-  </head>
+function normalImg2(x) {
+  x.style.height = "250px";
+  x.style.width = "300px";
+}
+function bigImg3(x) {
+  x.style.height = "180.4px";
+  x.style.width = "390.5px";
+}
 
-  <div id="pagewrap"; style="background-color:aliceblue">
-    <header style="background-color:rgb(179, 219, 255)">
-      <h1>Sarah's Portfolio</h1>
-    </header>
+function normalImg3(x) {
+  x.style.height = "164px";
+  x.style.width = "355px";
+}
+</script>
+<link rel="stylesheet" href="CSS.css">
+</head>
+<div id="pagewrap"; style="background-color:aliceblue">
+  <header style="background-color:rgb(179, 219, 255)">
+    <h1>Sarah's Portfolio</h1>
+  </header>
 
-    <section id="content"; style="background-color:aliceblue">
-      <img src="website_pic1.JPG" alt="" style="width:300px;height:400px;">
+  <section id="content"; style="background-color:aliceblue">
+    <img src="website_pic1.JPG" alt="" style="width:300px;height:400px;">
+  </section>
+
+
+  <section id="middle"; style="background-color:rgb(230, 243, 255)">
+    <h2>Short Bio</h2>
+    <p>My name is Sarah Baum. Here are a few things about me:
+      <ol>
+        <li>I'm 16 years old and a rising senior.</li>
+        <li>I'm in my school's National Honors Society and Spanish Honors Society.</li>
+        <li>I'm a grade representative in my school's student government.</li>
+        <li>I'm a part of the Habonim Dror youth movement.</li>
+      </ol>
+    </p>
     </section>
 
+  <aside id="sidebar"; style="background-color:rgb(204, 231, 255)">
+    <h2>Likes and Dislikes</h2>
+    <h2>Likes</h2>
+    <ul>
+      <li>Cats</li>
+      <li>Dogs</li>
+      <li>Italian food</li>
+      <li>Reading</li>
+      <li>Writing</li>
+      <li>Playing sports</li>
+    </ul>
+    <h2>Dislikes</h2>
+    <ul>
+      <li>Seafood</li>
+    </ul>
+  </aside>
+  <footer style="background-color:white">
+    <a href="http://hsas-lehman.org">
+      <img onmouseover="bigImg1(this)" onmouseout="normalImg1(this)" border="0" src="hsas_logo.jpg" alt="" width="220" height="210">
+    </a>
+    <a href="https://habonimdror.org">
+      <img onmouseover="bigImg2(this)" onmouseout="normalImg2(this)" border="0" src="habo_logo.jpg" alt=""width:"300px" height="250px">
+    </a>
+    <a href="https://girlswhocode.com">
+    <img onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" border="0" src="gwc_logo.jpg" alt="" width:"355px"height="164px">
+    </a>
+  </footer>
+</div>
+<body>
+  <div id="background-wrap">
+    <div class="x1">
+        <div class="cloud">
+          <div align="center">
+            <a href="http://hsas-lehman.org">
+              <img onmouseover="bigImg1(this)" onmouseout="normalImg1(this)" border="0" src="hsas_logo.jpg" alt="" width="220" height="210">
+            </a>
+          </div>
+        </div>
+    </div>
 
-    <section id="middle"; style="background-color:rgb(230, 243, 255)">
-      <h2>Short Bio</h2>
-      <p>My name is Sarah Baum. Here are a few things about me:
-        <ol>
-          <li>I'm 16 years old and a rising senior.</li>
-          <li>I'm in my school's National Honors Society and Spanish Honors Society.</li>
-          <li>I'm a grade representative in my school's student government.</li>
-          <li>I'm a part of the Habonim Dror youth movement.</li>
-        </ol>
-      </p>
-      </section>
+    <div class="x2">
+        <div class="cloud">
+        </div>
+    </div>
 
-    <aside id="sidebar"; style="background-color:rgb(204, 231, 255)">
-      <h2>Likes and Dislikes</h2>
-      <h2>Likes</h2>
-      <ul>
-        <li>Cats</li>
-        <li>Dogs</li>
-        <li>Italian food</li>
-        <li>Reading</li>
-        <li>Writing</li>
-        <li>Playing sports</li>
-      </ul>
-      <h2>Dislikes</h2>
-      <ul>
-        <li>Seafood</li>
-      </ul>
-    </aside>
+    <div class="x3">
+        <div class="cloud"></div>
+    </div>
 
-    <footer style="background-color:white">
-      <a href="http://hsas-lehman.org">
-        <img onmouseover="bigImg1(this)" onmouseout="normalImg1(this)" border="0" src="hsas_logo.jpg" alt="" width="220" height="210">
-      </a>
-      <a href="https://habonimdror.org">
-        <img onmouseover="bigImg2(this)" onmouseout="normalImg2(this)" border="0" src="habo_logo.jpg" alt=""width:"300px" height="250px">
-      </a>
-      <a href="https://girlswhocode.com">
-      <img onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" border="0" src="gwc_logo.jpg" alt="" width:"355px"height="164px">
-      </a>
-    </footer>
+    <div class="x4">
+        <div class="cloud"></div>
+    </div>
 
+    <div class="x5">
+        <div class="cloud"></div>
+    </div>
   </div>
+</body>
 </html>
