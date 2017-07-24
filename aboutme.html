@@ -1,7 +1,41 @@
 <!DOCTYPE html>
 <html lang="en-US"; style="background-color:aliceblue">
   <head>
- <link rel="stylesheet" href="CSS.css">
+    <script>
+    window.alert
+    ("Welcome!")
+    function displayWelcome() {
+        document.getElementById("demo").innerHTML = Welcome();
+    }
+    function bigImg1(x) {
+      x.style.height = "231px";
+      x.style.width = "242px";
+    }
+
+    function normalImg1(x) {
+      x.style.height = "210px";
+      x.style.width = "220px";
+    }
+    function bigImg2(x) {
+      x.style.height = "275px";
+      x.style.width = "330px";
+    }
+
+    function normalImg2(x) {
+      x.style.height = "250px";
+      x.style.width = "300px";
+    }
+    function bigImg3(x) {
+      x.style.height = "180.4px";
+      x.style.width = "390.5px";
+    }
+
+    function normalImg3(x) {
+      x.style.height = "164px";
+      x.style.width = "355px";
+    }
+    </script>
+    <link rel="stylesheet" href="CSS.css">
   </head>
 
   <div id="pagewrap"; style="background-color:aliceblue">
@@ -12,6 +46,7 @@
     <section id="content"; style="background-color:aliceblue">
       <img src="website_pic1.JPG" alt="" style="width:300px;height:400px;">
     </section>
+
 
     <section id="middle"; style="background-color:rgb(230, 243, 255)">
       <h2>Short Bio</h2>
@@ -44,10 +79,13 @@
 
     <footer style="background-color:white">
       <a href="http://hsas-lehman.org">
-        <img src="hsas_logo.jpg" alt="" style="width:220px;height:210px;">
+        <img onmouseover="bigImg1(this)" onmouseout="normalImg1(this)" border="0" src="hsas_logo.jpg" alt="" width="220" height="210">
       </a>
       <a href="https://habonimdror.org">
-      <img src="habo_logo.jpg" alt="" style="width:300px;height:250px;">
+        <img onmouseover="bigImg2(this)" onmouseout="normalImg2(this)" border="0" src="habo_logo.jpg" alt=""width:"300px" height="250px">
+      </a>
+      <a href="https://girlswhocode.com">
+      <img onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" border="0" src="gwc_logo.jpg" alt="" width:"355px"height="164px">
       </a>
     </footer>
 
