@@ -109,10 +109,11 @@ MEDIA QUERIES
 
 
 #content {
-	background: #f8f8f8;
+	background: inherit;
+  /*#f8f8f8;*/
 }
 #sidebar {
-	background: #f0efef;
+	background: inherit;
 }
 header, #content, #middle, #sidebar {
 	margin-bottom: 5px;
